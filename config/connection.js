@@ -7,13 +7,13 @@ if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_URL);
 }
 else {
-// mysql://beab3985482090:ce7c02ac@us-cdbr-iron-east-01.cleardb.net/heroku_2bdf9e33fadacf6?reconnect=true
+
 var connection = mysql.createConnection({
-  host: "us-cdbr-iron-east-01.cleardb.net",
+  host: "localhost",
   port: 3306,
-  user: "beab3985482090",
-  password: ce7c02ac,
-  database: "heroku_2bdf9e33fadacf6"
+  user: "root",
+  password: process.env.MYSQL_PASSWORD,
+  database: "burger_db"
 });
 }
 // Make connection.
