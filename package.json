@@ -18,5 +18,13 @@
   },
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbreeze28/burgers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbreeze28/burgers/issues"
+  },
+  "homepage": "https://github.com/cbreeze28/burgers#readme"
 }
